@@ -1,0 +1,44 @@
+* {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+#main {
+    height: 100vh;
+}
+
+.bg-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.8);
+}
+
+#main-text {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#main-cafe-name {
+  font-family: "Montserrat", sans-serif;
+}
+
+#arrow:hover {
+  opacity: 50%;
+}
+
+#offcanvas-menu {
+  height: 80%;
+  line-height: 2.5;
+}
+
+.navbar {
+    z-index: 1;
+    --bs-navbar-toggler-focus-width: 1px;
+} 
